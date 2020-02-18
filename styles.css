@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EEEEEE;
+}
+
+#weatherResults {
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 8px;
+  background-color: #DDDDDD;
+}
+
+#forecastResults {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.forecastItem {
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 8px;
+  background-color: #DDDDDD;
+  margin: 1% 3%;
+}
